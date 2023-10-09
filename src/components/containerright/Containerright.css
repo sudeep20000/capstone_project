@@ -10,7 +10,6 @@
 }
 
 .categories {
-  /* margin-top: 68px; */
   list-style: none;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;

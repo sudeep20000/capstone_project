@@ -54,6 +54,8 @@
   /* border: 2px solid white; */
   height: 155px;
   margin-top: 16px;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 .marked-categories ul {
