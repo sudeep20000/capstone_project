@@ -18,15 +18,15 @@ export default function Right() {
 
   let formData = JSON.parse(localStorage.getItem("formData")) || [];
 
-  let exist =
-    formData.length &&
-    JSON.parse(localStorage.getItem("formData")).some(
-      (data) =>
-        data.name.toLowerCase() === name.toLowerCase() &&
-        data.userName.toLowerCase() === userName.toLowerCase() &&
-        data.email.toLowerCase() === email.toLowerCase() &&
-        data.mobile.toLowerCase() === mobile.toLowerCase()
-    );
+  // let exist =
+  //   formData.length &&
+  //   JSON.parse(localStorage.getItem("formData")).some(
+  //     (data) =>
+  //       data.name.toLowerCase() === name.toLowerCase() &&
+  //       data.userName.toLowerCase() === userName.toLowerCase() &&
+  //       data.email.toLowerCase() === email.toLowerCase() &&
+  //       data.mobile.toLowerCase() === mobile.toLowerCase()
+  //   );
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -40,10 +40,10 @@ export default function Right() {
     ) {
       setError(true);
     } else {
-      if (!exist) {
-        formData.push({ name, userName, email, mobile });
-        localStorage.setItem("formData", JSON.stringify(formData));
-      }
+      // if (!exist) {
+      formData.push({ name, userName, email, mobile });
+      localStorage.setItem("formData", JSON.stringify(formData));
+      // }
       navigate("/category");
     }
   };

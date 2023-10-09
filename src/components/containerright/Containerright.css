@@ -1,0 +1,33 @@
+.container-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* border: 2px solid white; */
+  height: 100%;
+  width: 42%;
+  background-color: black;
+}
+
+.categories {
+  /* margin-top: 68px; */
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px;
+  /* border: 2px solid black; */
+  background-color: black;
+}
+
+.next-btn {
+  position: absolute;
+  bottom: 15px;
+  right: 14px;
+  padding: 8px 25px;
+  border-radius: 30px;
+  background-color: #148a08;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-family: "DM Sans", sans-serif;
+}

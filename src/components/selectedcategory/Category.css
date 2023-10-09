@@ -1,0 +1,22 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 120px;
+  border-radius: 25px;
+  color: white;
+  background-color: #148a08;
+}
+
+.item-name {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 17px;
+}
+
+.item img {
+  cursor: pointer;
+  padding: 11px;
+  transform: translateY(2px);
+  height: 36px;
+}
