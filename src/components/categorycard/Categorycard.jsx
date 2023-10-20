@@ -15,7 +15,7 @@ export default function Categorycard({ categoryObj, onAdd }) {
     JSON.parse(localStorage.getItem("categoryDetails")) || [];
 
   const handelActive = () => {
-    setActive(!active);
+    setActive(true);
     const selectedCategory = categoryObj.categoryName;
     categoryDetails.push(selectedCategory);
     localStorage.setItem("categoryDetails", JSON.stringify(categoryDetails));

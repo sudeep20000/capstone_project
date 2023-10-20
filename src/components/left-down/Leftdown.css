@@ -1,0 +1,95 @@
+.left-down {
+  height: 37%;
+  /* border: 2px solid black; */
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e2343;
+}
+
+.watch {
+  height: 90%;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outer-circle {
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer {
+  height: 90%;
+  width: 45%;
+  display: grid;
+  grid-template-columns: 1fr 25px 1fr 25px 1fr;
+  grid-template-rows: repeat(5, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1.5px;
+  color: #949494;
+}
+
+.uparrow {
+  align-self: end;
+}
+
+.hours {
+  color: white;
+  font-size: 48px;
+  font-family: "Roboto", sans-serif;
+}
+
+.minute {
+  color: white;
+  font-size: 48px;
+  font-family: "Roboto", sans-serif;
+}
+
+.second {
+  color: white;
+  font-size: 48px;
+  font-family: "Roboto", sans-serif;
+}
+
+.colon {
+  padding-top: 6px;
+}
+
+.colon img {
+  height: 25px;
+}
+
+.uparrow img {
+  height: 13px;
+}
+
+.downarrow img {
+  height: 12px;
+}
+
+.btn-container {
+  grid-column: 1 / -1;
+  padding-left: 15px;
+}
+
+.btn {
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  padding: 5px 130px;
+  border-radius: 20px;
+  background-color: #ff6a6a;
+  border: none;
+  color: white;
+}

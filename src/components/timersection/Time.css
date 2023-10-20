@@ -1,0 +1,8 @@
+.time-sec {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  /* border: 2px solid black; */
+  width: 72%;
+  height: 100%;
+}

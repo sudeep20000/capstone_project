@@ -1,0 +1,45 @@
+.movie-container {
+  background-color: black;
+  height: 100vh;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 82%;
+  height: 100px;
+  margin: auto;
+}
+
+.title-img {
+  height: 30px;
+}
+
+.profile-img {
+  height: 70px;
+}
+
+.msg {
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 82px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.card-container {
+  margin-top: 20px;
+  list-style: none;
+  margin: auto;
+  height: 75vh;
+  width: 88vw;
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  gap: 50px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #fff;
+  background-color: black;
+}
